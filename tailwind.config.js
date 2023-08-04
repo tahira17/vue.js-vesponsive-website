@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : theme =>({
-        'MaskGroup46' : "url('./')"
+        'MaskGroup45' : "url('/src/assets/MaskGroup45.png')",
+        'Header' :"url('/src/assets/Header.png')"
       })
     },
   },
