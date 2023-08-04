@@ -1,13 +1,19 @@
 <template>
   <NavbarVue />
+  <SearchEngine />
+  <ReachOutSection />
 </template>
 <script>
 import NavbarVue from './components/Navbar.vue'
+import SearchEngine from './components/SearchEngine.vue'
+import ReachOutSection from './components/ReachOutSection'
 
 export default {
-  name :NavbarVue,
+  name :"App",
   components:{
-    NavbarVue
+    NavbarVue,
+    SearchEngine,
+    ReachOutSection
   }
 }
 </script>
