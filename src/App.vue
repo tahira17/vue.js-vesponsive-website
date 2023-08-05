@@ -5,7 +5,7 @@
   <ReachOutSection />
   </div>
   <div class="absolute w-[50%] h-[50%] inset-0 m-auto top-[80%]">
-    <VideoSection />
+    <!-- <VideoSection /> -->
 
   </div>
 
@@ -15,7 +15,7 @@
 import NavbarVue from './components/Navbar.vue'
 import SearchEngine from './components/SearchEngine.vue'
 import ReachOutSection from './components/ReachOutSection'
-import VideoSection from './components/VideoSection'
+// import VideoSection from './components/VideoSection'
 
 
 export default {
@@ -24,7 +24,7 @@ export default {
     NavbarVue,
     SearchEngine,
     ReachOutSection,
-    VideoSection
+    // VideoSection
   }
 }
 </script>
