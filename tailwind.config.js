@@ -8,10 +8,15 @@ module.exports = {
     extend: {
       backgroundImage : theme =>({
         'MaskGroup45' : "url('/src/assets/MaskGroup45.png')",
-        'Header' :"url('/src/assets/Header.png')"
+        'Header' :"url('/src/assets/Header.png')",
+        'Pricing' :"url('/src/assets/Group1446.png')",
+        'Footer' :"url('/src/assets/Group446.png')",
+
       })
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 
