@@ -13,7 +13,7 @@
               src="../../src/assets/Group4260.png"
               alt="ContentStudio"
             />
-            <p class="text-justify font-light py-5">
+            <p class="text-justify font-light py-5 sm:space-x-0">
               The only platform you will ever need for your content marketing
               and social media management.
             </p>
