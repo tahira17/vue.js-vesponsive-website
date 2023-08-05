@@ -2,10 +2,6 @@
     
   <section class="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-Header bg-fixed"
   >
-
-
-
-
   <nav
         class="
           container
@@ -81,7 +77,16 @@
         <button type="button" class="text-white bg-green-500 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-500 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-500 dark:hover:bg-green-500 dark:focus:ring-green-500 mt-10">Try For Free Today!</button>
       </div>
     </div>
+
+    <div class="m-10 w-100% h-[600px]">
+    <video class="bg-video__content rounded-md" autoplay muted loop>
+      <source src="../../src/assets/Video.mp4" type="video/mp4">
+   </video>
+   </div>
+
+
 </section> 
+<div class="bg-white w-screen h-[600px] hidden md:block lg:block "></div>
 </template>
 <script>
 import { defineComponent } from "vue";

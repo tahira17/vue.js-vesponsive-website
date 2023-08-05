@@ -1,6 +1,6 @@
 <template>
-    <div class="m-10 w-100% h-auto">
-    <video class="bg-video__content" autoplay muted loop>
+    <div class="m-10 w-100% h-[400px]">
+    <video class="bg-video__content rounded-md" autoplay muted loop>
       <source src="../../src/assets/Video.mp4" type="video/mp4">
    </video>
 </div>

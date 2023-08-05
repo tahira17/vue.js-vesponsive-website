@@ -1,16 +1,12 @@
 <template>
-  <div class="absolute w-full h-full">
+
     <NavbarVue />
+    <!-- <VideoSection /> -->
     <SearchEngine />
   <ReachOutSection />
   <Pricing />
   <QuestionSection />
   <Footer />
-  </div>
-  <div class="absolute w-[50%] h-[50%] inset-0 m-auto top-[80%]">
-    <!-- <VideoSection /> -->
-
-  </div>
 
  
 </template>
@@ -21,9 +17,7 @@ import ReachOutSection from './components/ReachOutSection'
 import Pricing from './components/Pricing.vue'
 import QuestionSection from './components/Questionsection.vue'
 import Footer from './components/Footer.vue'
-
-// import VideoSection from './components/VideoSection'
-
+import VideoSection from './components/VideoSection.vue'
 
 export default {
   name :"App",
@@ -33,8 +27,8 @@ export default {
     ReachOutSection,
     Pricing,
     QuestionSection,
-    Footer
-    // VideoSection
+    Footer,
+    VideoSection
   }
 }
 </script>
