@@ -1,7 +1,7 @@
 <template>
 
     <NavbarVue />
-    <!-- <VideoSection /> -->
+ 
     <SearchEngine />
   <ReachOutSection />
   <Pricing />
@@ -17,7 +17,7 @@ import ReachOutSection from './components/ReachOutSection'
 import Pricing from './components/Pricing.vue'
 import QuestionSection from './components/Questionsection.vue'
 import Footer from './components/Footer.vue'
-import VideoSection from './components/VideoSection.vue'
+
 
 export default {
   name :"App",
@@ -28,7 +28,7 @@ export default {
     Pricing,
     QuestionSection,
     Footer,
-    VideoSection
+  
   }
 }
 </script>
