@@ -5,6 +5,7 @@
     <SearchEngine />
   <ReachOutSection />
   <Pricing />
+  <Roadmap />
   <QuestionSection />
   <Footer />
 
@@ -17,7 +18,7 @@ import ReachOutSection from './components/ReachOutSection'
 import Pricing from './components/Pricing.vue'
 import QuestionSection from './components/Questionsection.vue'
 import Footer from './components/Footer.vue'
-
+import Roadmap from './components/Roadmap.vue'
 
 export default {
   name :"App",
@@ -26,8 +27,10 @@ export default {
     SearchEngine,
     ReachOutSection,
     Pricing,
+    Roadmap,
     QuestionSection,
     Footer,
+
   
   }
 }

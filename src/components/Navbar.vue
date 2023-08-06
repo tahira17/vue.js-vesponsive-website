@@ -79,7 +79,7 @@
     </div>
 
     <div class="m-10 w-70% h-[400px]">
-    <video class="bg-video__content rounded-md" autoplay muted loop>
+    <video class="bg-video__content rounded-md lg:m-60 md:m-10 sm:m-2" autoplay muted loop>
       <source src="../../src/assets/Video.mp4" type="video/mp4">
    </video>
    </div>
