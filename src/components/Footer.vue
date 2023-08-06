@@ -1,8 +1,9 @@
 <template>
   <div class="py-14 bg-Footer">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
       <div
-        class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:gap-8 text-white"
+        class="grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xl:gap-8 text-white"
       >
         <div class="text-left">
           <div>
@@ -136,7 +137,7 @@
         <div class="flex items-center">
           <p>2016-2017Contenstudio</p>
         </div>
-        <div class="flex space-x-2 md:space-x-8 items-center justify-center">
+        <div class="flex lg:space-x-2 md:space-x-6 sm:space-x-0 items-center justify-center">
           <div class="flex items-center justify-center">
           You can download our app from
         </div>

@@ -4,8 +4,10 @@
     <h1 class="text-4xl text-center py-20">Search,Shortlist and Reach out</h1>
   </div>
   <!-- div having all cards -->
+
+  <div class='flex flex-col justify-center items-center w-full h-full'>
   <div
-    class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px] items-center"
+    class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 lg:px-[20px] items-center"
   >
     <!-- card 1 -->
     <div
@@ -38,10 +40,17 @@
       </p>
     </div>
   </div>
+
+</div>
+
+
+
+
   <!-- 2nd section -->
   <div class="max-w-[1320px] mx-auto">
     <h1 class="text-4xl text-center py-20">Data You'll Get with us</h1>
   </div>
+  <div class='flex flex-col justify-center items-center w-full h-full'>
 
   <div
     class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]"
@@ -117,6 +126,7 @@
       </button>
     </div>
   </div>
+</div>
 
 </div>
   <!-- Section 3 -->
@@ -124,6 +134,8 @@
   <div class="max-w-[1320px] mx-auto p-50">
     <h1 class="text-4xl text-center py-20">Solution to every kind of business</h1>
   </div>
+  <div class='flex flex-col justify-center items-center w-full h-full'>
+
   <div
     class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px] items-center"
   >
@@ -157,6 +169,7 @@
         Our searrch engine makes influencer prospecting and marketing easy for the B2B industry as well.
       </p>
     </div>
+  </div>
   </div>
 </div>
 </template>
