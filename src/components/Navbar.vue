@@ -1,6 +1,6 @@
 <template>
     
-  <section class="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-Header bg-fixed"
+  <section class="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-Header bg-fixed md:w-auto sm:w-auto"
   >
   <nav
         class="

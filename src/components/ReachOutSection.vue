@@ -21,7 +21,7 @@
     <div
       class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
-      <img src="../../src/assets/Group14190.png" class="m-20" />
+      <img src="../../src/assets/Group14195.png" class="m-20" />
       <h3 class="py-1v m-2 text-bold ml-10">Find Unlimited Influencers</h3>
       <p class="py-1 m-2 text-gray-500 ml-10">
         Deep search tech for more than 7 million influencers
@@ -31,7 +31,7 @@
     <div
       class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
-      <img src="../../src/assets/Group14190.png" class="m-20" />
+      <img src="../../src/assets/Group14203.png" class="m-20" />
       <h3 class="py-1v m-2 text-bold ml-10">Find Unlimited Influencers</h3>
       <p class="py-1 m-2 text-gray-500 ml-10">
         Deep search tech for more than 7 million influencers

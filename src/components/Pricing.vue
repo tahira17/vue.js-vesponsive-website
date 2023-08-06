@@ -34,16 +34,21 @@
       </ul>
     </div>
   <!-- right section -->
-  <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
-	<img class="object-cover h-full " src="../../src/assets/Header.png"/>
-
+  <div class="relative overflow-hidden rounded-lg shadow-lg h-[350px] w-[350px]">
+	<img class="object-cover h-[350px] w-[350px]" src="../../src/assets/PriceCard.png"/>
 	<div class="absolute top-0 left-0 px-6 py-4">
 	  <h4 class="mb-3 text-xl font-semibold tracking-tight text-yellow-500">WAS</h4>
       <p class="mb-3 text-xl font-semibold tracking-tight text-yellow-500">$199/lifetime</p>
+	  <p class="mb-3 text-xl font-semibold tracking-tight text-white">__</p>
 	  <p class="mb-3 text-xl font-semibold tracking-tight text-white">Now</p>
 	  <p class="mb-3 text-xl font-semibold tracking-tight text-white">$99/lifetime</p>
+<br />
+<br />
+<br />
+
 
 	</div>
+  <p class="mb-3 text-xl font-semibold text-black-900 text-right absolute bottom-5 right-5">BUY NOW</p>
   </div>
   </div>
 </template>
