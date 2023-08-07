@@ -1,114 +1,98 @@
 <template>
   <div
-    class="bg-blue-900 bg-cover lg:h-screen md:h-screen sm:w-2/3 lg:w-full md:w-full"
+    class="grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900"
   >
-    <div>
-      <h1 class="text-4xl text-white text-center py-20">Road Map</h1>
-      <p class="text-white text-center ml-10">
-        The priority of features on roadmap can change based upon the user's
-        feedback.
-      </p>
+    <div
+      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg"
+    >
+      <!-- <img src='../../src/assets/rdmp4.png' alt="image goes here" class='float-right' /> -->
     </div>
-    <div class="grid lg:grid-cols-5 gap-0 md:grid-cols-1 sm:grid-cols-1 mt-10">
-      <!-- first div -->
-      <div
-        class="h-50 w-50 text-right font-light w-full h-full lg:ml-20 md:ml-10 sm:ml-2"
-      ></div>
-      <!-- 2nd  -->
-      <div class="text-right font-light lg:w-full lg:h-[200px] sm:w-1/2 sm:h-1/2">
-        <h3 class="text-bold text-blue-400">Youtube Influencers Discovery</h3>
-        <p class="text-white">Q4-2019-Done</p>
-        <p class="text-white">
-          You'll be able to find and connect with authentic Influencers on
-          youtube.
-        </p>
-      </div>
-      <div
-        class="h-50 w-50 text-right font-light w-full h-[200px] lg:ml-20 md:ml-10 sm:ml-2"
-      >
-        <h3 class="text-bold text-blue-400">Influencer's Contact Info</h3>
-        <p class="text-white">Q4-2019-Done</p>
-        <p class="text-white">
-          You'll be able to find and connect with authentic Influencers on
-          youtube.
-        </p>
-      </div>
-      <div
-        class="rounded-lg h-50 w-50 text-right font-light w-full h-[200px] lg:ml-20 md:ml-10 sm:ml-2"
-      >
-        <h3 class="text-bold text-blue-400">Integration with other tools</h3>
-        <p class="text-white">Q4-2019-Done</p>
-        <p class="text-white">
-          You'll be able to find and connect with authentic Influencers on
-          youtube.
-        </p>
-      </div>
-      <div class="rounded-lg h-12"></div>
-
-      <div
-        class="rounded-lg h-50 w-50 text-left font-light w-full h-[200px] lg:ml-20 md:ml-10 sm:ml-2"
-      >
-        <img
-          src="../../src/assets/step1.png"
-          class="ml-20 h-[40px] hidden md:hidden lg:block"
-        />
-
-        <h3 class="text-bold text-blue-400 mt-10">Instagram Influencers</h3>
-        <p class="text-white">Q4-2019-Done</p>
-        <p class="text-white">
-          You'll be able to find and connect with authentic Influencers on
-          youtube.
-        </p>
-      </div>
-      <div class="grid grid-cols-2 gap-14">
-        <img
-          src="../../src/assets/step2.png"
-          class="ml-20 h-[40px] hidden md:hidden lg:block"
-        />
-        <img
-          src="../../src/assets/step456.png"
-          class="ml-20 h-[40px] hidden md:hidden lg:block"
-        />
-      </div>
-      <div
-        class="rounded-lg h-50 w-50 text-left font-light w-full h-[200px] lg:ml-20 md:ml-10 sm:ml-2"
-      >
-        <img
-          src="../../src/assets/step456.png"
-          class="ml-20 h-[40px] hidden md:hidden lg:block"
-        />
-        <h3 class="text-bold text-blue-400 mt-10">Cost Estimation CPM</h3>
-        <p class="text-white">Q4-2019-Done</p>
-        <p class="text-white">
-          You'll be able to find and connect with authentic Influencers on
-          youtube.
-        </p>
-      </div>
-      <div class="rounded-lg h-12">
-        <img
-          src="../../src/assets/step456.png"
-          class="ml-20 h-[40px] hidden md:hidden lg:block"
-        />
-      </div>
-      <div class="rounded-lg h-12">
-        <img
-          src="../../src/assets/step456.png"
-          class="ml-20 h-[40px] hidden md:hidden lg:block"
-        />
-      </div>
-      <div class="rounded-lg h-12"></div>
-
-      <div
-        class="h-50 w-50 text-right font-light lg:w-full lg:h-full sm:w-[200px] sm:h-[200px] md:w-full md:h-[200px]"
-      >
-        <h3 class="text-bold text-blue-400 text-right">Data Export in CSV</h3>
-        <p class="text-white">Q4-2019-Done</p>
-        <p class="text-white mb-10">
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 relative"
+    >
+      <img
+        src="../../src/assets/rdmp4.png"
+        alt="image goes here"
+        class="float-right"
+      />
+      <div class="bg-blue-900 w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0">
+        <h3 class="text-bold text-blue-400 text-right">
+          Youtube Influencers Discovery
+        </h3>
+        <br />
+        <p class="text-white text-sm text-right">Q4-2019-Done</p>
+        <br />
+        <p class="text-white text-sm text-right">
           You'll be able to find and connect with authentic Influencers on
           youtube.
         </p>
       </div>
     </div>
+    <div
+      class="w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg"
+    ></div>
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg relative"
+    >
+      <div class="bg-blue-900 w-4/4 h-1/3 absolute rounded-lg mt-24 mr-14 ml-0">
+        <h3 class="text-bold text-2l text-blue-400 text-right">
+          Influencer's Contact Info
+        </h3>
+        <br />
+        <p class="text-white text-sm text-right">Q1 2020</p>
+        <br />
+        <p class="text-white text-sm text-right">
+          Get Contact info of influencer's and reach out to them.
+        </p>
+      </div>
+      <img
+        src="../../src/assets/rdmp7.png"
+        alt="image goes here"
+        class="inset-x-0 bottom-0 pt-24"
+      />
+    </div>
+
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg"
+    >
+      <div class="bg-blue-900 w-4/4 h-20% absolute rounded-lg mt-24 mr-10 ml-0">
+        <h3 class="text-bold text-2l text-blue-400 text-right">
+          Integration with Other Tools
+        </h3>
+        <br />
+        <p class="text-white text-sm text-right">ongoing</p>
+        <br />
+        <p class="text-white text-sm text-right">Email and CRM Integration.</p>
+      </div>
+      <img
+        src="../../src/assets/rdmp6.png"
+        alt="image goes here"
+        class="float-right bg-blue-900"
+      />
+    </div>
+
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
+    >
+      12
+    </div>
+
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
+    >
+    34</div>
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
+    >56</div>
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
+    >78</div>
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
+    >910</div>
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
+    ></div>
   </div>
 </template>
 <script>

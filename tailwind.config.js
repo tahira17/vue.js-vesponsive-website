@@ -11,7 +11,7 @@ module.exports = {
         'Header' :"url('/src/assets/Header.png')",
         'Pricing' :"url('/src/assets/Group1446.png')",
         'Footer' :"url('/src/assets/Group446.png')",
-'rdmp':"url('/src/assets/Bg-rm.png')"
+'rdmp':"url('/src//assets/rdmp4.png')"
       })
     },
   },
