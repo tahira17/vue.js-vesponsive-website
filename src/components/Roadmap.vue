@@ -1,20 +1,40 @@
 <template>
+
+
   <div
-    class="grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900"
+    class="grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900 relative z-0"
   >
-    <div
-      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg"
-    >
-      <!-- <img src='../../src/assets/rdmp4.png' alt="image goes here" class='float-right' /> -->
+  <div class="absolute inset-0 flex justify-center items-center z-10 mt-44">
+      <p class="text-2xl font-bold">This should be on top of the map</p>
+
+
+
+      
     </div>
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 relative"
+      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg z-0"
     >
+first empty 
+        </div>
+    <div
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto relative bg-gray-900"
+    >
+    <!-- <div class="absolute bottom-6 mr-24">
+      <hr class="w-48 h-2">
+    </div>
+    <div class="ml-20 p-2 absolute bottom-0">
+      <img
+        src="../../src/assets/step2.png"
+        
+        
+      />
+</div> -->
       <img
         src="../../src/assets/rdmp4.png"
         alt="image goes here"
-        class="float-right"
+        class="float-right bg-red-300"
       />
+
       <div class="bg-blue-900 w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0">
         <h3 class="text-bold text-blue-400 text-right">
           Youtube Influencers Discovery
@@ -27,6 +47,8 @@
           youtube.
         </p>
       </div>
+    
+     
     </div>
     <div
       class="w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg"
@@ -34,6 +56,8 @@
     <div
       class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg relative"
     >
+  
+
       <div class="bg-blue-900 w-4/4 h-1/3 absolute rounded-lg mt-24 mr-14 ml-0">
         <h3 class="text-bold text-2l text-blue-400 text-right">
           Influencer's Contact Info
@@ -94,6 +118,8 @@
       class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
     ></div>
   </div>
+
+  
 </template>
 <script>
 import { defineComponent } from "vue";
