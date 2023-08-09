@@ -4,22 +4,24 @@
   <div
     class="grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900 relative z-0"
   >
-  <div class="absolute inset-0 flex justify-left items-center z-10 mt-44">
-      <hr class="w-1/10 h-[4px] ml-80 bg-gradient-to-l from-blue-500 rounded-lg">
-      <!-- <hr class="w-4/5 h-1 bg-blue-100 mr-40"> -->
+  <div class="absolute inset-0 flex justify-center items-center z-10">
+      <!-- <hr class="w-1/10  ml-80 bg-gradient-to-l from-red-500 rounded-lg"> -->
+      <hr class="w-11/12 h-1 mx-auto my-4 border-0 rounded bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <!-- <hr class="w-4/5 h-1 bg-gradient-to-l bg-blue-600"> -->
+    
 
 
       
     </div>
     <div
-      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg z-0"
+      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-red-900 text-white text-center text-lg z-0"
     >
 first empty 
         </div>
 
 
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto relative "
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto relative bg-red-500 "
     >
       <img
         src="../../src/assets/rdmp4.png"
@@ -27,7 +29,7 @@ first empty
         class="float-right"
       />
 
-      <div class="bg-blue-900 w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0">
+      <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0">
         <h3 class="text-bold text-blue-400 text-right">
           Youtube Influencers Discovery
         </h3>
@@ -45,7 +47,7 @@ first empty
 
 
     <div
-      class="w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg"
+      class="w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-yellow-900 text-white text-center text-lg"
     >
     hy</div>
 
@@ -72,7 +74,7 @@ first empty
     </div>
 
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg relative"
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-green-900 text-white text-center text-lg relative"
     >
       <div class="bg-blue-900 w-4/4 h-20% absolute rounded-lg mt-24 mr-10 ml-0">
         <h3 class="text-bold text-2l text-blue-400 text-right">
@@ -91,7 +93,7 @@ first empty
     </div>
 
   <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
+      class="bg-gray-900 w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
     >
     <img
         src="../../src/assets/Rdmp1.png"
@@ -112,34 +114,21 @@ first empty
 
 
     <div
-      class="  w-full p-8 col-span-3 mx-auto  text-white text-center text-lg relative"
+      class="w-full p-8 col-span-2 mx-auto bg-yellow-800 text-white text-center text-lg relative"
     >ok
-    <!-- <img
-        src="../../src/assets/1.png"
-        alt="image goes here"
-        class="float-right  w-3/4  right-0 absolute"
-      />
-      <div class="w-3/4 h-20% absolute rounded-lg mt-24 ml-20 top-0 text-left">
-        <h3 class="text-bold text-2l  text-left text-blue-400">
-          Export Data in CSV
-        </h3>
-        <br />
-        <p class="text-white text-sm ">Q4-2019</p>
-        <br />
-        <p class="text-white text-sm ">Create lists or reports and export data via CSV.</p>
-      </div> -->
-   
+  
+ 
     </div>
     <div
-      class="w-full p-8 col-span-3 mx-auto  text-white text-center text-lg relative "
+      class="bg-gray-600 w-full p-8 col-span-3 mx-auto  text-white text-center text-lg relative z-0"
     >
     <img
         src="../../src/assets/1.png"
         alt="image goes here"
-        class="float-right  w-3/4  right-0 absolute mr-40"
+        class="float-right  w-4/4  right-0 mr-10 z-0"
       />
-      <div class="w-3/4 h-20% absolute rounded-lg mt-24 top-0 text-left mr-40 text-blue-700">
-        <h3 class="text-bold text-2l  text-left text-blue-400">
+      <div class="w-4/4 h-20% absolute rounded-lg mt-24 top-0 text-left mr-20  left-0 z-10">
+        <h3 class="text-bold text-2l text-left text-blue-400">
           Export Data in CSV
         </h3>
         <br />
@@ -150,7 +139,7 @@ first empty
    
     </div>
     <div
-      class="  w-full p-8 col-span-3 mx-auto  text-white text-center text-lg relative"
+      class="bg-purple-900  w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative"
     >
     <img
         src="../../src/assets/2.png"
@@ -171,9 +160,7 @@ first empty
     <div
       class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
     >910</div>
-    <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
-    ></div>
+  
   </div>
 
   
