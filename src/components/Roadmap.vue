@@ -1,41 +1,38 @@
 <template>
-
-
   <div
-    class="grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900 relative z-0"
+    class="hidden lg:grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900 relative z-0"
   >
-  <div class="absolute inset-0 flex justify-center items-center z-10">
-      <!-- <hr class="w-1/10  ml-80 bg-gradient-to-l from-red-500 rounded-lg"> -->
-      <hr class="w-11/12 h-1 mx-auto my-4 border-0 rounded bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-      <!-- <hr class="w-4/5 h-1 bg-gradient-to-l bg-blue-600"> -->
-    
 
-
-      
-    </div>
     <div
-      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-red-900 text-white text-center text-lg z-0 relative"
+      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg z-0 relative"
     >
-first empty 
-fr   <img
+     
+
+
+      <div class="w-full">
+        <hr
+        class="w-full h-1 mx-auto my-4 border-0 rounded  bottom-0 absolute right-0 bg-blue-500"
+      />
+        <img
         src="../../src/assets/step1.png"
         alt="image goes here"
         class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
       />
-        </div>
+      </div>
+  
+    </div>
 
-
+<!-- 2nd col in large screen -->
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto relative bg-red-500 z-0"
+      class="w-full p-8 col-span-3 mx-auto relative  z-0"
     >
       <img
         src="../../src/assets/rdmp4.png"
         alt="image goes here"
         class="float-right"
       />
-   
 
-      <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0 bg-red-900">
+      <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0 ">
         <h3 class="text-bold text-blue-400 text-right">
           Youtube Influencers Discovery
         </h3>
@@ -47,33 +44,40 @@ fr   <img
           youtube.
         </p>
       </div>
-      <img
+
+      <div class="w-full">
+        <hr
+        class="w-full h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+      />
+        <img
         src="../../src/assets/step2.png"
         alt="image goes here"
         class="bottom-0 absolute object-[center_bottom] ml-20"
       />
-     
+      </div>
     </div>
-
+<!-- 3nd col in large screen -->
 
     <div
-      class="relative w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-yellow-900 text-white text-center text-lg"
+      class="relative w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto  text-white text-center text-lg"
     >
-    hy
-    
-    
-    <img
+  
+      <div>
+        <hr
+        class="w-full h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+      />
+        <img
         src="../../src/assets/step456.png"
         alt="image goes here"
         class="bottom-0 absolute ml-24 mr-8"
       />
       </div>
-
-
+    </div>
+<!-- 4th col in large screen -->
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-blue-900 text-white text-center text-lg relative"
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
     >
-      <div class="bg-blue-900 w-4/4 h-1/3 absolute rounded-lg mt-24 mr-14 ml-0">
+      <div class=" w-4/4 h-1/3 absolute rounded-lg mt-24 mr-14 ml-0">
         <h3 class="text-bold text-2l text-blue-400 text-right">
           Influencer's Contact Info
         </h3>
@@ -83,14 +87,13 @@ fr   <img
         <p class="text-white text-sm text-right">
           Get Contact info of influencer's and reach out to them.
         </p>
-        
       </div>
       <img
         src="../../src/assets/rdmp7.png"
         alt="image goes here"
         class="inset-x-0 bottom-0 pt-24"
       />
-      <img
+      <!-- <img
         src="../../src/assets/step456.png"
         alt="image goes here"
         class="bottom-0 absolute object-[center_bottom] left-3"
@@ -99,11 +102,27 @@ fr   <img
         src="../../src/assets/step456.png"
         alt="image goes here"
         class="bottom-0 absolute ml-28"
+      /> -->
+      <div>
+        <hr
+        class="w-full h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
       />
-    </div>
+        <img
+        src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute object-[center_bottom] left-3"
+      />
+      <img
+      src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-28 right-20 mr-13"
+      />
 
+      </div>
+    </div>
+<!-- 5th col in large screen -->
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-green-900 text-white text-center text-lg relative"
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
     >
       <div class="bg-blue-900 w-4/4 h-20% absolute rounded-lg mt-24 mr-10 ml-0">
         <h3 class="text-bold text-2l text-blue-400 text-right">
@@ -119,92 +138,190 @@ fr   <img
         alt="image goes here"
         class="float-right bg-blue-900 mr-4"
       />
-      <img
+      <!-- <img
+        src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
+      /> -->
+
+      <div>
+        <hr
+        class="w-11/12 h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+      />
+        <img
         src="../../src/assets/step456.png"
         alt="image goes here"
         class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
       />
-    </div>
+      </div>
 
-  <div
-      class="bg-gray-900 w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
+
+    </div>
+<!-- 6th col in large screen -->
+    <div
+      class=" w-full p-8 col-span-3 justify-center justify-self-center mx-auto text-white text-center text-lg relative"
     >
- 
-    <img
+      <img
         src="../../src/assets/Rdmp1.png"
         alt="image goes here"
-        class="w-1/2 bg-yellow-900 top-0 absolute left-2"
+        class="w-1/2  top-0 absolute left-2"
       />
-      <div class="w-4/4 h-20% absolute bg-red-900 rounded-lg mt-24 mr-22 top-0 text-left">
-        <h3 class="text-bold text-2l text-blue-400 ">
-          Instagram Influencers
-        </h3>
+      <div
+        class="w-4/4 h-20% absolute  rounded-lg mt-24 mr-22 top-0 text-left"
+      >
+        <h3 class="text-bold text-2l text-blue-400">Instagram Influencers</h3>
         <br />
         <p class="text-white text-sm">Q4-2019 Done</p>
         <br />
-        <p class="text-white text-sm">You'll be able to find and connect with authentic Instagram Influencers.</p>
+        <p class="text-white text-sm">
+          You'll be able to find and connect with authentic Instagram
+          Influencers.
+        </p>
       </div>
-   
     </div>
-
-
+<!-- 7th col in large screen -->
     <div
-      class="w-full p-8 col-span-2 mx-auto bg-yellow-800 text-white text-center text-lg relative"
-    >ok
-  
- 
-    </div>
-    <div
-      class="bg-gray-600 w-full p-8 col-span-3 mx-auto  text-white text-center text-lg relative z-0"
+      class="w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative z-0"
     >
-    <img
-        src="../../src/assets/step1.png"
-        alt="image goes here"
-        class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
-      />
+      ok
+    </div>
 
-    <img
+    <!-- 8th col in large screen -->
+    <div
+      class="bg-black w-full col-span-3 relative "
+    >
+      <img
         src="../../src/assets/1.png"
         alt="image goes here"
-        class="float-right  w-4/4 mt-0 bg-green-500 right-0 mr-10"
+        class=" w-3/4 top-0 right-20 bg-yellow-900 z-10"
       />
-      <div class="w-4/4 h-20% absolute rounded-lg mt-24 top-0 text-left mr-20  left-0 z-10">
+      <div
+        class="w-4/4 h-20% absolute rounded-lg text-left ml-0 z-10 bg-red-900"
+      >
         <h3 class="text-bold text-2l text-left text-blue-400">
           Export Data in CSV
         </h3>
         <br />
-        <p class="text-white text-sm ">Q4-2019</p>
+        <p class="text-white text-sm">Q4-2019</p>
         <br />
-        <p class="text-white text-sm ">Create lists or reports and export data via CSV.</p>
+        <p class="text-white text-sm">
+          Create lists or reports and export data via CSV.
+        </p>
       </div>
-   
     </div>
+
+    <!-- 9th col in large screen -->
     <div
-      class="bg-purple-900  w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative"
+      class=" w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative"
     >
-    <img
+      <img
         src="../../src/assets/2.png"
         alt="image goes here"
-        class="float-right  w-3/4 right-0 bg-yellow-900 absolute top-0 ml-20"
+        class="float-right w-3/4 right-24 absolute top-0 ml-14"
       />
-      <div class="w-3/4 h-20% absolute rounded-lg mt-24 ml-20 top-0 text-left">
-        <h3 class="text-bold text-2l  text-left text-blue-400">
+      <div class="w-3/4 h-20% absolute rounded-lg mt-10 top-0 text-left left-2">
+        <h3 class="text-bold text-2l text-left text-blue-400">
           Cost Estimation & CPM.
         </h3>
         <br />
-        <p class="text-white text-sm ">Q2-2020</p>
+        <p class="text-white text-sm">Q2-2020</p>
         <br />
-        <p class="text-white text-sm ">Our smart AI will suggest expected CPM for each influencer.</p>
+        <p class="text-white text-sm">
+          Our smart AI will suggest expected CPM for each influencer.
+        </p>
       </div>
-   
     </div>
+    <!-- 10th col in large screen -->
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto bg-slate-500 text-white text-center text-lg"
-    >910</div>
-  
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg"
+    >
+     
+    </div>
   </div>
 
+
+
+
+<!-- for smaller screens  -->
+
+<div class='flex flex-col  justify-center items-center w-full h-full bg-blue-900 lg:hidden '>
+  <div
+    class="max-w-[1000px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]  items-center"
+  >
   
+  <!-- card 1 -->
+  <div
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    >
+      <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Instagram Influencers</h3>
+      <p class="py-1 m-2 text-white text-center">
+      Q4-2019-Done
+      </p>
+      <p class="py-1 m-2 text-white text-center">
+        You'll be able to find and connect with authentic Instagram
+          Influencers.
+      </p>
+    </div>
+    <!-- card 2 -->
+    <div
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    >
+      <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Youtube Influencers Discovery</h3>
+      <p class="py-1 m-2 text-white text-center">
+      Q4-2019-Done
+      </p>
+      <p class="py-1 m-2 text-white text-center">
+       You'll be able to find and connect with authentic Influencers on
+          youtube.
+      </p>
+    </div>
+      <!-- card 3 -->
+  <div
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    >
+      <h3 class="py-1 m-2 text-bold text-blue-400 text-center"> Export Data in CSV</h3>
+      <p class="py-1 m-2 text-white text-center">
+        Q4-2019
+      </p>
+      <p class="py-1 m-2 text-white text-center">
+        Create lists or reports and export data via CSV.
+      </p>
+    </div>
+      <!-- card 4 -->
+  <div
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    >
+      <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Influencer's Contact Info</h3>
+      <p class="py-1 m-2 text-white text-center">
+        Q1 2020
+      </p>
+      <p class="py-1 m-2 text-white text-center">
+        Get Contact info of influencer's and reach out to them.
+      </p>
+    </div>  <!-- card 5-->
+  <div
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    >
+      <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Cost Estimation & CPM.</h3>
+      <p class="py-1 m-2 text-white text-center">
+        Q2-2020
+      </p>
+      <p class="py-1 m-2 text-white text-center">
+        Our smart AI will suggest expected CPM for each influencer.
+      </p>
+    </div>  <!-- card 6 -->
+  <div
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    >
+      <h3 class="py-1 m-2 text-bold text-blue-400 text-center">     Integration with Other Tools</h3>
+      <p class="py-1 m-2 text-white text-center">
+        ongoing
+      </p>
+      <p class="py-1 m-2 text-white text-center">
+        Email and CRM Integration.
+      </p>
+    </div>
+  </div></div>
 </template>
 <script>
 import { defineComponent } from "vue";

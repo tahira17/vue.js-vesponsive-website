@@ -135,7 +135,6 @@
     <h1 class="text-4xl text-center py-20">Solution to every kind of business</h1>
   </div>
   <div class='flex flex-col justify-center items-center w-full h-full'>
-
   <div
     class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px] items-center"
   >
