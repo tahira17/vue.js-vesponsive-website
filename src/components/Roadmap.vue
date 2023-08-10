@@ -14,22 +14,28 @@
       
     </div>
     <div
-      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-red-900 text-white text-center text-lg z-0"
+      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto bg-red-900 text-white text-center text-lg z-0 relative"
     >
 first empty 
+fr   <img
+        src="../../src/assets/step1.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
+      />
         </div>
 
 
     <div
-      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto relative bg-red-500 "
+      class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto relative bg-red-500 z-0"
     >
       <img
         src="../../src/assets/rdmp4.png"
         alt="image goes here"
         class="float-right"
       />
+   
 
-      <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0">
+      <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0 bg-red-900">
         <h3 class="text-bold text-blue-400 text-right">
           Youtube Influencers Discovery
         </h3>
@@ -41,15 +47,27 @@ first empty
           youtube.
         </p>
       </div>
-    
+      <img
+        src="../../src/assets/step2.png"
+        alt="image goes here"
+        class="bottom-0 absolute object-[center_bottom] ml-20"
+      />
      
     </div>
 
 
     <div
-      class="w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-yellow-900 text-white text-center text-lg"
+      class="relative w-full p-8 col-span-3 ju8.6stify-center justify-self-center mx-auto bg-yellow-900 text-white text-center text-lg"
     >
-    hy</div>
+    hy
+    
+    
+    <img
+        src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-24 mr-8"
+      />
+      </div>
 
 
     <div
@@ -65,11 +83,22 @@ first empty
         <p class="text-white text-sm text-right">
           Get Contact info of influencer's and reach out to them.
         </p>
+        
       </div>
       <img
         src="../../src/assets/rdmp7.png"
         alt="image goes here"
         class="inset-x-0 bottom-0 pt-24"
+      />
+      <img
+        src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute object-[center_bottom] left-3"
+      />
+      <img
+        src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-28"
       />
     </div>
 
@@ -88,26 +117,32 @@ first empty
       <img
         src="../../src/assets/rdmp6.png"
         alt="image goes here"
-        class="float-right bg-blue-900"
+        class="float-right bg-blue-900 mr-4"
+      />
+      <img
+        src="../../src/assets/step456.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
       />
     </div>
 
   <div
       class="bg-gray-900 w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
     >
+ 
     <img
         src="../../src/assets/Rdmp1.png"
         alt="image goes here"
-        class="float-right  w-1/2 mr-10"
+        class="w-1/2 bg-yellow-900 top-0 absolute left-2"
       />
-      <div class="w-4/4 h-20% absolute rounded-lg mt-24 ml-20 top-0">
-        <h3 class="text-bold text-2l text-blue-400 text-right ">
+      <div class="w-4/4 h-20% absolute bg-red-900 rounded-lg mt-24 mr-22 top-0 text-left">
+        <h3 class="text-bold text-2l text-blue-400 ">
           Instagram Influencers
         </h3>
         <br />
-        <p class="text-white text-sm text-right">Q4-2019 Done</p>
+        <p class="text-white text-sm">Q4-2019 Done</p>
         <br />
-        <p class="text-white text-sm text-right">You'll be able to find and connect with authentic Instagram Influencers.</p>
+        <p class="text-white text-sm">You'll be able to find and connect with authentic Instagram Influencers.</p>
       </div>
    
     </div>
@@ -123,9 +158,15 @@ first empty
       class="bg-gray-600 w-full p-8 col-span-3 mx-auto  text-white text-center text-lg relative z-0"
     >
     <img
+        src="../../src/assets/step1.png"
+        alt="image goes here"
+        class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
+      />
+
+    <img
         src="../../src/assets/1.png"
         alt="image goes here"
-        class="float-right  w-4/4  right-0 mr-10 z-0"
+        class="float-right  w-4/4 mt-0 bg-green-500 right-0 mr-10"
       />
       <div class="w-4/4 h-20% absolute rounded-lg mt-24 top-0 text-left mr-20  left-0 z-10">
         <h3 class="text-bold text-2l text-left text-blue-400">
@@ -144,7 +185,7 @@ first empty
     <img
         src="../../src/assets/2.png"
         alt="image goes here"
-        class="float-right  w-3/4  right-0 absolute"
+        class="float-right  w-3/4 right-0 bg-yellow-900 absolute top-0 ml-20"
       />
       <div class="w-3/4 h-20% absolute rounded-lg mt-24 ml-20 top-0 text-left">
         <h3 class="text-bold text-2l  text-left text-blue-400">
