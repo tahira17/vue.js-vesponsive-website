@@ -1,6 +1,6 @@
 <template>
 
-  <NavbarVue />
+<NavbarVue />
  
     <SearchEngine />
   <ReachOutSection />
@@ -11,7 +11,7 @@
  
   <QuestionSection /> 
 
-  <Roadmap />
+  <Roadmap /> 
   <Footer />
 
  

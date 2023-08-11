@@ -65,34 +65,34 @@
 
             <div class="hidden">
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/content-composer">Social media content composer</a>
+                <a>Social media content composer</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/social-media-automation">Social media automation</a>
+                <a >Social media automation</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/content-automation">Content automation</a>
+                <a >Content automation</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/content-calendar">Content calendar</a>
+                <a >Content calendar</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/content-marketing">Content marketing</a>
+                <a >Content marketing</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/content-insights">Content research &amp; insights</a>
+                <a >Content research &amp; insights</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/influencers-search">Influencer search</a>
+                <a >Influencer search</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/ai-social-caption-generator">AI caption generator</a>
+                <a >AI caption generator</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/rss-feed-reader">RSS feed reader</a>
+                <a >RSS feed reader</a>
               </li>
               <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-                <a href="/media-library">Asset management with media library</a>
+                <a >Asset management with media library</a>
               </li>
             </div>
           </ul>
@@ -101,13 +101,13 @@
           <h3 class="font-semibold mb-4">Legal</h3>
           <ul class="font-light text-sm">
             <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-              <a href="/startup-program">terms & Conditions</a>
+              <a >terms & Conditions</a>
             </li>
             <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-              <a href="/affiliate-program">Privacy Policy</a>
+              <a>Privacy Policy</a>
             </li>
             <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
-              <a href="/mobile-app">Contact Us</a>
+              <a >Contact Us</a>
             </li>
           </ul>
         </div>

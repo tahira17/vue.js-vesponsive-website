@@ -1,6 +1,6 @@
 <template>
     
-  <section class="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-Header bg-fixed md:w-auto sm:w-auto"
+  <section class="flex flex-col h-[1000px] justify-center content-center text-white bg-center bg-cover bg-blend-overlay bg-Header md:w-auto sm:w-auto relative z-0"
   >
   <nav
         class="
@@ -77,18 +77,22 @@
         <button type="button" class="text-white bg-green-500 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-500 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-500 dark:hover:bg-green-500 dark:focus:ring-green-500 mt-10">Try For Free Today!</button>
       </div>
     </div>
+<div class="w-1/2 bottom-20 left-40  lg:h-[400px] md:h-[400px] sm:h-[200px] absolute z-10 lg:top-[50%] lg:left-[25%] md:top-[50%] md:left-[25%] sm:top-[70%] sm:left-[25%]">
 
-    <div class="lg:w-2/3 lg:h-[400px] sm:w-1/2 md:w-2/3">
-    <video class="bg-video__content rounded-md lg:ml-60 md:m-8 sm:m-2" autoplay muted loop>
-      <source src="../../src/assets/Video.mp4" type="video/mp4">
-   </video>
-   </div>
+  <div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://player.vimeo.com/video/146022717?color=0c88dd&title=0&byline=0&portrait=0&badge=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<div class="w-full  h-[400px] hidden lg:block md:block"></div>
+ 
 
    
 
 
 </section> 
-<div class="bg-white w-full h-[600px] hidden lg:block "></div>
+
 </template>
 <script>
 import { defineComponent } from "vue";
