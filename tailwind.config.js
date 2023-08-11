@@ -5,6 +5,7 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx,vue}",
   ],
   theme: {
+   
     extend: {
       backgroundImage : theme =>({
         'MaskGroup45' : "url('/src/assets/MaskGroup45.png')",
