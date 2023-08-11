@@ -1,10 +1,22 @@
 <template>
-  <div
-    class="hidden lg:grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900 relative z-0"
+   <div
+    class="bg-blue-900 bg-cover lg:h-10% sm:w-full lg:w-full md:w-full"
   >
+    <div>
+      <h1 class="text-4xl text-white text-center p-10">Road Map</h1>
+      <p class="text-white text-center ml-10">
+        The priority of features on roadmap can change based upon the user's
+        feedback.
+      </p>
+    </div>
+  </div>
+  <div
+    class="lg:h-full hidden lg:grid grid-cols-[repeat(auto-fit,_6.6%)] m-auto p-24 justify-center bg-blue-900 relative z-0"
+  >
+<!-- 1st col in large screen -->
 
     <div
-      class="w-full p-4 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg z-0 relative"
+      class=" w-full p-4 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg z-0 relative"
     >
      
 
@@ -24,12 +36,12 @@
 
 <!-- 2nd col in large screen -->
     <div
-      class="w-full p-8 col-span-3 mx-auto relative  z-0"
+      class=" w-full p-8 col-span-3 mx-auto relative  z-0"
     >
       <img
         src="../../src/assets/rdmp4.png"
         alt="image goes here"
-        class="float-right"
+        class=" float-right"
       />
 
       <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0 ">
@@ -47,7 +59,8 @@
 
       <div class="w-full">
         <hr
-        class="w-full h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+        
+        class=" w-full mx-auto h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step2.png"
@@ -64,12 +77,12 @@
   
       <div>
         <hr
-        class="w-full h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+        class="w-full h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step456.png"
         alt="image goes here"
-        class="bottom-0 absolute ml-24 mr-8"
+        class="bottom-0 absolute ml-24 mr-10"
       />
       </div>
     </div>
@@ -93,19 +106,10 @@
         alt="image goes here"
         class="inset-x-0 bottom-0 pt-24"
       />
-      <!-- <img
-        src="../../src/assets/step456.png"
-        alt="image goes here"
-        class="bottom-0 absolute object-[center_bottom] left-3"
-      />
-      <img
-        src="../../src/assets/step456.png"
-        alt="image goes here"
-        class="bottom-0 absolute ml-28"
-      /> -->
+   
       <div>
         <hr
-        class="w-full h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+        class="w-full h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step456.png"
@@ -138,15 +142,11 @@
         alt="image goes here"
         class="float-right bg-blue-900 mr-4"
       />
-      <!-- <img
-        src="../../src/assets/step456.png"
-        alt="image goes here"
-        class="bottom-0 absolute ml-24 mr-8 right-16 left-14"
-      /> -->
+    
 
       <div>
         <hr
-        class="w-11/12 h-1 my-4 border-0 rounded bg-blue-500 bottom-0 absolute"
+        class="w-11/12 h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step456.png"
@@ -164,10 +164,10 @@
       <img
         src="../../src/assets/Rdmp1.png"
         alt="image goes here"
-        class="w-1/2  top-0 absolute left-2"
+        class="float-right w-1/3 top-0 absolute left-14 "
       />
       <div
-        class="w-4/4 h-20% absolute  rounded-lg mt-24 mr-22 top-0 text-left"
+        class=" w-2/3 h-20% absolute rounded-lg top-14 left-16 text-left"
       >
         <h3 class="text-bold text-2l text-blue-400">Instagram Influencers</h3>
         <br />
@@ -181,25 +181,24 @@
     </div>
 <!-- 7th col in large screen -->
     <div
-      class="w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative z-0"
+      class=" w-full p-8 col-span-2 mx-auto text-white text-center text-lg relative z-0"
     >
-      ok
+    
     </div>
 
     <!-- 8th col in large screen -->
+
     <div
-      class="bg-black w-full col-span-3 relative "
+      class=" w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative"
     >
       <img
         src="../../src/assets/1.png"
         alt="image goes here"
-        class=" w-3/4 top-0 right-20 bg-yellow-900 z-10"
+        class="float-right w-3/4 right-20 absolute top-0 ml-14"
       />
-      <div
-        class="w-4/4 h-20% absolute rounded-lg text-left ml-0 z-10 bg-red-900"
-      >
+      <div class="w-3/4 h-20% rounded-lg mt-10 top-4 text-left left-6">
         <h3 class="text-bold text-2l text-left text-blue-400">
-          Export Data in CSV
+          Export Data in CSV.
         </h3>
         <br />
         <p class="text-white text-sm">Q4-2019</p>
@@ -209,18 +208,17 @@
         </p>
       </div>
     </div>
-
     <!-- 9th col in large screen -->
     <div
-      class=" w-full p-8 col-span-3 mx-auto text-white text-center text-lg relative"
+      class="w-full p-8 col-span-4 mx-auto text-white text-center text-lg relative"
     >
       <img
         src="../../src/assets/2.png"
         alt="image goes here"
-        class="float-right w-3/4 right-24 absolute top-0 ml-14"
+        class="float-right w-2/3 right-18 left-12 absolute top-0"
       />
-      <div class="w-3/4 h-20% absolute rounded-lg mt-10 top-0 text-left left-2">
-        <h3 class="text-bold text-2l text-left text-blue-400">
+      <div class="w-3/4 h-20% absolute rounded-lg mt-10 top-4 text-left left-24">
+        <h3 class="text-bold text-2l text-left text-blue-400 left-0">
           Cost Estimation & CPM.
         </h3>
         <br />
@@ -251,7 +249,7 @@
   
   <!-- card 1 -->
   <div
-      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500 mt-10"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Instagram Influencers</h3>
       <p class="py-1 m-2 text-white text-center">
