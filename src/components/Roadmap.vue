@@ -35,7 +35,7 @@
     </div>
 
 <!-- 2nd col in large screen -->
-    <div
+    <div 
       class=" w-full p-8 col-span-3 mx-auto relative  z-0"
     >
       <img
@@ -44,7 +44,7 @@
         class=" float-right"
       />
 
-      <div class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0 ">
+      <div data-aos="fade-up" data-aos-duration="800" class="w-4/4 h-40% absolute rounded-lg mt-24 mr-16 ml-0 ">
         <h3 class="text-bold text-blue-400 text-right">
           Youtube Influencers Discovery
         </h3>
@@ -90,7 +90,7 @@
     <div
       class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
     >
-      <div class=" w-4/4 h-1/3 absolute rounded-lg mt-24 mr-14 ml-0">
+      <div data-aos="fade-up" data-aos-duration="800" class=" w-4/4 h-1/3 absolute rounded-lg mt-24 mr-14 ml-0">
         <h3 class="text-bold text-2l text-blue-400 text-right">
           Influencer's Contact Info
         </h3>
@@ -128,7 +128,7 @@
     <div
       class="w-full p-8 col-span-3 justify-center justify-self-center mx-auto  text-white text-center text-lg relative"
     >
-      <div class="bg-blue-900 w-4/4 h-20% absolute rounded-lg mt-24 mr-10 ml-0">
+      <div data-aos="fade-up" data-aos-duration="800" class="bg-blue-900 w-4/4 h-20% absolute rounded-lg mt-24 mr-10 ml-0">
         <h3 class="text-bold text-2l text-blue-400 text-right">
           Integration with Other Tools
         </h3>
@@ -166,7 +166,7 @@
         alt="image goes here"
         class="float-right w-1/3 top-0 absolute left-14 "
       />
-      <div
+      <div data-aos="fade-down" data-aos-duration="800"
         class=" w-2/3 h-20% absolute rounded-lg top-14 left-16 text-left"
       >
         <h3 class="text-bold text-2l text-blue-400">Instagram Influencers</h3>
@@ -196,7 +196,7 @@
         alt="image goes here"
         class="float-right w-3/4 right-20 absolute top-0 ml-14"
       />
-      <div class="w-3/4 h-20% rounded-lg mt-10 top-4 text-left left-6">
+      <div data-aos="fade-down" data-aos-duration="800" class="w-3/4 h-20% rounded-lg mt-10 top-4 text-left left-6">
         <h3 class="text-bold text-2l text-left text-blue-400">
           Export Data in CSV.
         </h3>
@@ -217,7 +217,7 @@
         alt="image goes here"
         class="float-right w-2/3 right-18 left-12 absolute top-0"
       />
-      <div class="w-3/4 h-20% absolute rounded-lg mt-10 top-4 text-left left-24">
+      <div data-aos="fade-down" data-aos-duration="800" class="w-3/4 h-20% absolute rounded-lg mt-10 top-4 text-left left-24">
         <h3 class="text-bold text-2l text-left text-blue-400 left-0">
           Cost Estimation & CPM.
         </h3>
@@ -248,7 +248,7 @@
   >
   
   <!-- card 1 -->
-  <div
+  <div data-aos="flip-right" data-aos-duration="800"
       class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500 mt-10"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Instagram Influencers</h3>
@@ -261,8 +261,8 @@
       </p>
     </div>
     <!-- card 2 -->
-    <div
-      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+    <div data-aos="flip-right" data-aos-duration="800"
+      class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500 mt-10"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Youtube Influencers Discovery</h3>
       <p class="py-1 m-2 text-white text-center">
@@ -274,7 +274,7 @@
       </p>
     </div>
       <!-- card 3 -->
-  <div
+  <div data-aos="flip-right" data-aos-duration="800"
       class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center"> Export Data in CSV</h3>
@@ -286,7 +286,7 @@
       </p>
     </div>
       <!-- card 4 -->
-  <div
+  <div data-aos="flip-right" data-aos-duration="800"
       class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Influencer's Contact Info</h3>
@@ -297,7 +297,7 @@
         Get Contact info of influencer's and reach out to them.
       </p>
     </div>  <!-- card 5-->
-  <div
+  <div data-aos="flip-right" data-aos-duration="800"
       class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center">Cost Estimation & CPM.</h3>
@@ -308,7 +308,7 @@
         Our smart AI will suggest expected CPM for each influencer.
       </p>
     </div>  <!-- card 6 -->
-  <div
+  <div data-aos="flip-right" data-aos-duration="800"
       class="shadow-lg rounded-lg md:h-[250px] sm:h-[250px] w-[350px] justify-center items-center hover:scale-110 duration-500"
     >
       <h3 class="py-1 m-2 text-bold text-blue-400 text-center">     Integration with Other Tools</h3>

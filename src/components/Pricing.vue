@@ -5,7 +5,7 @@
     class="max-w-[1320px] mx-auto grid lg:grid-cols-2 md:grid-cols-2 lg:gap-10 sm:gap-5 items-center"
   >
   <!-- left section -->
-    <div class="max-w-[1320px] mx-auto">
+    <div data-aos="zoom-in" data-aos-duration="800" class="max-w-[1320px] mx-auto">
       <h1 class="text-2xl text-center mt-20">Simple & Transparent Pricing</h1>
 
       <ul class="space-y-4 text-center text-gray-500 py-20">
@@ -34,7 +34,7 @@
       </ul>
     </div>
   <!-- right section -->
-  <div class="relative overflow-hidden rounded-lg shadow-lg h-[350px] w-[350px] lg:mt-40 md:mt-40 sm:mt-20">
+  <div data-aos="flip-right" data-aos-duration="800" class="relative overflow-hidden rounded-lg shadow-lg h-[350px] w-[350px] lg:mt-40 md:mt-40 sm:mt-20">
 	<img class="h-[350px] w-[350px]" src="../../src/assets/PriceCard.png"/>
 	<div class="absolute top-0 left-0 px-6 py-4">
 	  <h4 class="mb-3 text-xl font-semibold tracking-tight text-yellow-500">WAS</h4>

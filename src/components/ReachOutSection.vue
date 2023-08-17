@@ -11,7 +11,7 @@
   >
     <!-- card 1 -->
     <div
-      class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
+    data-aos="flip-right" data-aos-duration="1200" class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/Group14190.png" class="m-20" />
       <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
@@ -20,7 +20,7 @@
       </p>
     </div>
     <!-- 2nd card -->
-    <div
+    <div data-aos="flip-right" data-aos-duration="1200"
       class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/Group14195.png" class="m-20" />
@@ -30,7 +30,7 @@
       </p>
     </div>
     <!-- 3rd card -->
-    <div
+    <div data-aos="flip-right" data-aos-duration="1200"
       class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/Group14203.png" class="m-20" />
@@ -56,7 +56,7 @@
     class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]"
   >
     <!-- card 1 -->
-    <div class="text-left h-[400px] md:h-[480px] w-[350px]">
+    <div data-aos="zoom-in" data-aos-duration="1000" class="text-left h-[400px] md:h-[480px] w-[350px]">
       <img src="../../src/assets/Group14.png" class="m-10" />
       <h3 class="py-1 m-2 text-bold">Influencers Demographics</h3>
       <p class="py-1 m-2 text-gray-500">
@@ -69,7 +69,7 @@
       </button>
     </div>
     <!-- card 2 -->
-    <div class="text-left h-[400px] md:h-[480px] w-[350px]">
+    <div data-aos="zoom-in" data-aos-duration="1000" class="text-left h-[400px] md:h-[480px] w-[350px]">
       <img src="../../src/assets/Group51.png" class="m-10" />
       <h3 class="py-1 m-2 text-bold">Engagment Stats</h3>
       <p class="py-1 m-2 text-gray-500">
@@ -80,7 +80,7 @@
       </button>
     </div>
     <!-- card 3 -->
-    <div class="text-left h-[400px] md:h-[480px] w-[350px]">
+    <div data-aos="zoom-in" data-aos-duration="1000" class="text-left h-[400px] md:h-[480px] w-[350px]">
       <img src="../../src/assets/Group141.png" class="m-10" />
       <h3 class="py-1 m-2 text-bold">Niche</h3>
       <p class="py-1 m-2 text-gray-500">
@@ -91,7 +91,7 @@
       </button>
     </div>
     <!-- card 4 -->
-    <div class="text-left h-[400px] md:h-[480px] w-[350px]">
+    <div data-aos="zoom-in" data-aos-duration="1000" class="text-left h-[400px] md:h-[480px] w-[350px]">
       <img src="../../src/assets/Group1417.png" class="m-10" />
       <h3 class="py-1 m-2 text-bold">Location</h3>
       <p class="py-1 m-2 text-gray-500">
@@ -103,7 +103,7 @@
     </div>
 
     <!-- card 5 -->
-    <div class="text-left h-[400px] md:h-[480px] w-[350px]">
+    <div data-aos="zoom-in" data-aos-duration="1000" class="text-left h-[400px] md:h-[480px] w-[350px]">
       <img src="../../src/assets/Group14178.png" class="m-10" />
       <h3 class="py-1 m-2 text-bold">Contact Info<span class="py-1 m-2 text-green-500">(Roadmap) </span></h3>
       <p class="py-1 m-2 text-gray-500">
@@ -115,7 +115,7 @@
     </div>
 
     <!-- card 6 -->
-    <div class="text-left h-[400px] md:h-[480px] w-[350px]">
+    <div data-aos="zoom-in" data-aos-duration="1000" class="text-left h-[400px] md:h-[480px] w-[350px]">
       <img src="../../src/assets/Group14179.png" class="m-10" />
       <h3 class="py-1 m-2 text-bold">Cost Estimation<span class="py-1 m-2 text-green-500">(Roadmap) </span></h3>
       <p class="py-1 m-2 text-gray-500">
@@ -139,7 +139,7 @@
     class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px] items-center"
   >
     <!-- card 1 -->
-    <div
+    <div data-aos="flip-right" data-aos-duration="1200"
       class="shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] justify-center items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/icon2.png" class="m-20" />
@@ -149,7 +149,7 @@
       </p>
     </div>
     <!-- 2nd card -->
-    <div
+    <div data-aos="flip-right" data-aos-duration="1200"
       class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/icon-2.png" class="m-20" />
@@ -159,7 +159,7 @@
       </p>
     </div>
     <!-- 3rd card -->
-    <div
+    <div data-aos="flip-right" data-aos-duration="1200"
       class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px]  items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/icon-2.png" class="m-20" />

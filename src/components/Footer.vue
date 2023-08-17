@@ -6,7 +6,7 @@
         class="grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xl:gap-8 text-white"
       >
         <div class="text-left">
-          <div>
+          <div data-aos="fade-up" data-aos-duration="800">
             <img
               width="138"
               height="32"
@@ -20,7 +20,7 @@
             </p>
           </div>
         </div>
-        <div class="lg:ml-40 md:ml-10 sm:ml-30">
+        <div data-aos="fade-up" data-aos-duration="800" class="lg:ml-40 md:ml-10 sm:ml-30">
           <h3 class="font-semibold mb-4">Product</h3>
           <ul class="font-light text-sm">
             <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
@@ -44,7 +44,7 @@
             </li>
           </ul>
         </div>
-        <div class="lg:ml-40 md:ml-10 sm:ml-30">
+        <div data-aos="fade-up" data-aos-duration="800" class="lg:ml-40 md:ml-10 sm:ml-30">
           <h3 class="font-semibold mb-4">Resources</h3>
           <ul class="font-light text-sm">
             <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
@@ -97,7 +97,7 @@
             </div>
           </ul>
         </div>
-        <div class="lg:ml-40 md:ml-10 sm:ml-30">
+        <div data-aos="fade-up" data-aos-duration="800" class="lg:ml-40 md:ml-10 sm:ml-30">
           <h3 class="font-semibold mb-4">Legal</h3>
           <ul class="font-light text-sm">
             <li class="my-3 transition-all ease-in-out hover:text-opacity-80">
@@ -116,7 +116,7 @@
 
 
       
-      <div class="text-white font-light text-sm grid md:grid-cols-2 gap-8">
+      <div data-aos="fade-up" data-aos-duration="800" class="text-white font-light text-sm grid md:grid-cols-2 gap-8">
         <div class="flex space-x-2 md:space-x-8 items-center justify-start">
           <img
             src="../../src//assets/fb.png"

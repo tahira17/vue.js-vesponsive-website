@@ -65,10 +65,10 @@
       </ul>
     </nav>
 
-    <div class="w-full h-screen">
+    <div class="w-full h-screen delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300" >
       <div class="flex flex-col justify-center items-center w-full h-full">
         <div class="max-w-[1500px] w-full grid sm:grid-cols-1 gap-8 p-4">
-          <div
+          <div data-aos="fade-up" data-aos-duration="800"
             class="flex flex-col justify-center items-center text-center w-full h-full"
           >
             <h1 class="text-6xl font-semibold mt-40">Influencer Discovery</h1>
@@ -101,7 +101,7 @@
     </div>
   </div>
 
-  <div class="lg:h-[300px] md:h-[300px] sm:h-[30px]"></div>
+  <div class="h-[50px] lg:h-[300px] md:h-[300px] sm:h-[30px]"></div>
 </template>
 <script>
 import { defineComponent } from "vue";
