@@ -23,7 +23,7 @@
 
       <div class="w-full">
         <hr
-        class="w-full h-1 mx-auto my-4 border-0 rounded  bottom-0 absolute right-0 bg-blue-500"
+        class="w-full h-1 mx-auto my-4 border-0 bottom-0 absolute right-0 bg-blue-500"
       />
         <img
         src="../../src/assets/step1.png"
@@ -60,7 +60,7 @@
       <div class="w-full">
         <hr
         
-        class=" w-full mx-auto h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
+        class=" w-full mx-auto h-1 my-4 border-0 left-0 bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step2.png"
@@ -77,7 +77,7 @@
   
       <div>
         <hr
-        class="w-full h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
+        class="w-full h-1 my-4 border-0 left-0 bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step456.png"
@@ -109,7 +109,7 @@
    
       <div>
         <hr
-        class="w-full h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
+        class="w-full h-1 my-4 border-0 left-0 bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step456.png"
@@ -146,7 +146,7 @@
 
       <div>
         <hr
-        class="w-11/12 h-1 my-4 border-0 left-0 rounded bg-blue-500 bottom-0 absolute"
+        class="w-11/12 h-1 my-4 border-0 left-0 bg-blue-500 bottom-0 absolute"
       />
         <img
         src="../../src/assets/step456.png"
