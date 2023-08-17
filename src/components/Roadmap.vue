@@ -244,7 +244,7 @@
 
 <div class='flex flex-col  justify-center items-center w-full h-full bg-blue-900 lg:hidden '>
   <div
-    class="max-w-[1000px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]  items-center"
+    class="max-w-[1000px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]  items-center mb-10"
   >
   
   <!-- card 1 -->

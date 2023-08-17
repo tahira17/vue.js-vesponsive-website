@@ -11,7 +11,7 @@
   >
     <!-- card 1 -->
     <div
-    data-aos="flip-right" data-aos-duration="1200" class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
+    data-aos="flip-right" data-aos-duration="1200" class="text-left shadow-lg rounded-lg h-[480px] lg:h-[480px] md:h-[480px] sm:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/Group14190.png" class="m-20" />
       <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
@@ -21,7 +21,7 @@
     </div>
     <!-- 2nd card -->
     <div data-aos="flip-right" data-aos-duration="1200"
-      class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
+      class="text-left shadow-lg rounded-lg h-[480px] lg:h-[480px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/Group14195.png" class="m-20" />
       <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
@@ -31,7 +31,7 @@
     </div>
     <!-- 3rd card -->
     <div data-aos="flip-right" data-aos-duration="1200"
-      class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
+      class="text-left shadow-lg rounded-lg h-[480px] lg:h-[480px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
     >
       <img src="../../src/assets/Group14203.png" class="m-20" />
       <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
@@ -134,39 +134,46 @@
   <div class="max-w-[1320px] mx-auto p-50">
     <h1 class="text-4xl text-center py-20">Solution to every kind of business</h1>
   </div>
-  <div class='flex flex-col justify-center items-center w-full h-full'>
+  <div class='flex flex-col  items-center w-full h-full'>
   <div
     class="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px] items-center"
   >
     <!-- card 1 -->
     <div data-aos="flip-right" data-aos-duration="1200"
-      class="shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] justify-center items-center hover:scale-110 duration-500"
+      class="relative mt-10 shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] justify-center items-center hover:scale-110 duration-500"
     >
-      <img src="../../src/assets/icon2.png" class="m-20" />
-      <h3 class="py-1 m-2 text-bold text-center">Agency</h3>
+      <img src="../../src/assets/icon2.png" class="absolute top-24 ml-24 p-4 " />
+    <div class="mt-60">
+      <h3 class="py-1 m-2 text-bold text-center bottom-0">Agency</h3>
       <p class="py-1 m-2 text-gray-500 text-center">
         Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.
       </p>
     </div>
+
+    </div>
     <!-- 2nd card -->
     <div data-aos="flip-right" data-aos-duration="1200"
-      class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] items-center hover:scale-110 duration-500"
+      class="relative mt-10  text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px] items-center hover:scale-110 duration-500"
     >
-      <img src="../../src/assets/icon-2.png" class="m-20" />
+      <img src="../../src/assets/icon-2.png" class="absolute top-24 ml-24 p-4 " />
+      <div class="mt-60">
       <h3 class="py-1 m-2 text-bold text-center">B2C</h3>
       <p class="py-1 m-2 text-gray-500 text-center">
         Having influencers from almost every niche and industry makes it possible to help you create powerful B2C marketing campaigns.
       </p>
     </div>
+    </div>
     <!-- 3rd card -->
     <div data-aos="flip-right" data-aos-duration="1200"
-      class="text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px]  items-center hover:scale-110 duration-500"
+      class=" relative mt-10 text-left shadow-lg rounded-lg h-[500px] md:h-[480px] sm:h-[480px] w-[350px]  items-center hover:scale-110 duration-500"
     >
-      <img src="../../src/assets/icon-2.png" class="m-20" />
+      <img src="../../src/assets/icon-2.png" class="absolute top-24 ml-24 p-4 "/>
+      <div class="mt-60">
       <h3 class="py-1 m-2 text-bold text-center">B2B</h3>
       <p class="py-1 m-2 text-gray-500 text-center">
         Our searrch engine makes influencer prospecting and marketing easy for the B2B industry as well.
       </p>
+    </div>
     </div>
   </div>
   </div>
