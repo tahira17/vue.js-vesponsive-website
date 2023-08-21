@@ -21,4 +21,3 @@ module.exports = {
   ],
 }
 
-// fade-in-up_1s_ease-in-out

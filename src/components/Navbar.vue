@@ -1,14 +1,14 @@
 <template>
-  <div
+ <div
     class="flex flex-col h-full justify-center content-center text-white bg-center bg-cover bg-blend-overlay bg-Header md:w-auto sm:w-auto relative z-0"
   >
     <nav
-      class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center lg:mb-55 sm:mb-50"
+      class="container lg:px-6 lg:py-8 md:mt-10 sm:mt-10 mx-auto md:flex md:justify-between md:items-center lg:mb-55 sm:mb-50"
     >
       <div class="flex items-center justify-between">
         <img src="../../src/assets/Group4260.png" />
         <!-- Mobile menu button -->
-        <div @click="showMenu = !showMenu" class="flex md:hidden">
+        <div @click="showMenu = !showMenu" class="flex md:hidden lg:hidden">
           <button
             type="button"
             class="text-white-800 hover:text-white-400 focus:outline-none focus:text-white-400"
@@ -26,7 +26,7 @@
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-6 lg:space-x-10 xl:space-x-10 md:mt-0"
       >
         <li
           class="text-sm text-2l font-light text-white-800 hover:text-blue-400"
@@ -65,7 +65,7 @@
       </ul>
     </nav>
 
-    <div class="w-full h-screen">
+        <div class="w-full h-screen">
       <div class="flex flex-col justify-center items-center w-full h-full">
         <div class="max-w-[1500px] w-full grid sm:grid-cols-1 gap-8 p-4">
           <div
@@ -83,25 +83,26 @@
             </button>
           </div>
 
-          <!-- video -->
+ <!-- video  -->
 
-          <div class="items-center w-full h-full">
-            <div class="aspect-w-16 aspect-h-9">
+           <div class="items-center w-full h-full relative rounded-xl overflow-auto lg:p-6 md:p-4 sm:p-0 bg-white shadow-2xl">
+          
+         <div class="aspect-w-16 aspect-h-9 shadow-2xl">
               <iframe
-                class="rounded-lg mb-10"
+                class="rounded-2xl mb-10 shadow-2xl"
                 src="https://player.vimeo.com/video/146022717?color=0c88dd&title=0&byline=0&portrait=0&badge=0"
                 frameborder="10"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </div>
-          </div>
-        </div>
+          </div> 
+         </div>
       </div>
-    </div>
+    </div>  
   </div>
 
-  <div class="h-[50px] lg:h-[300px] md:h-[50px] sm:h-[30px]"></div>
+  <!-- <div class="h-[50px] lg:h-[300px] md:h-[50px] sm:h-[30px]"></div> -->
 </template>
 <script>
 import { defineComponent } from "vue";
