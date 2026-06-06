@@ -1,4 +1,4 @@
-# fe-test
+# Vue.js Responsive Website
 
 ## Project setup
 ```
