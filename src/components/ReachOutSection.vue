@@ -16,7 +16,9 @@
           class="text-left shadow-lg rounded-lg h-[480px] lg:h-[480px] md:h-[480px] sm:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
         >
           <img src="../../src/assets/Group14190.png" class="m-20" />
-          <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
+          <h3 class="py-1 m-2 text-bold ml-10">
+            Discover Millions of Influencers
+          </h3>
           <p class="py-1 m-2 text-gray-500 ml-10">
             Deep search tech for more than 7 million influencers
           </p>
@@ -28,9 +30,9 @@
           class="text-left shadow-lg rounded-lg h-[480px] lg:h-[480px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
         >
           <img src="../../src/assets/Group14195.png" class="m-20" />
-          <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
+          <h3 class="py-1 m-2 text-bold ml-10">Smart Influencer Search</h3>
           <p class="py-1 m-2 text-gray-500 ml-10">
-            Deep search tech for more than 7 million influencers
+            Use advanced search filters to find influencers
           </p>
         </div>
         <!-- 3rd card -->
@@ -40,9 +42,9 @@
           class="text-left shadow-lg rounded-lg h-[480px] lg:h-[480px] md:h-[480px] w-[350px] bg-MaskGroup45 items-center hover:scale-110 duration-500"
         >
           <img src="../../src/assets/Group14203.png" class="m-20" />
-          <h3 class="py-1 m-2 text-bold ml-10">Find Unlimited Influencers</h3>
+          <h3 class="py-1 m-2 text-bold ml-10">Shortlist Your Favorites</h3>
           <p class="py-1 m-2 text-gray-500 ml-10">
-            Deep search tech for more than 7 million influencers
+            Save, organize and compare potential influencers
           </p>
         </div>
       </div>
