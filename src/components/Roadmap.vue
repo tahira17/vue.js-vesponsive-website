@@ -4,7 +4,7 @@
     class="bg-blue-900 bg-cover lg:h-10% sm:w-full lg:w-full md:w-full"
   >
     <div>
-      <h1 class="text-4xl text-white text-center p-10">Road Map</h1>
+      <h1 class="text-4xl text-white text-center pt-20">Road Map</h1>
       <p class="text-white text-center ml-10">
         The priority of features on roadmap can change based upon the user's
         feedback.

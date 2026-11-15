@@ -1,15 +1,16 @@
 <template>
   <div
-    class="flex flex-col h-full justify-center content-center text-white bg-center bg-cover bg-blend-overlay bg-Header md:w-auto sm:w-auto relative z-0"
+    id="navbar"
+    class="flex flex-col h-full justify-center content-center text-white bg-center bg-cover bg-blend-overlay bg-Header md:w-auto sm:w-auto"
   >
-    <!-- <nav
-      class="container lg:px-6 lg:py-8 md:mt-10 sm:mt-10 mx-auto md:flex md:justify-between md:items-center lg:mb-55 sm:mb-50"
-    > -->
     <nav
-      class="container lg:px-6 lg:py-8 md:mt-10 sm:mt-10 mx-auto md:flex md:justify-between md:items-center lg:mb-55 sm:mb-50 relative z-50"
+      class="fixed top-0 left-0 right-0 z-[9999] w-full h-16 bg-blue-800 shadow-md px-6 flex items-center justify-between"
     >
       <div class="flex items-center justify-between">
-        <img src="../../src/assets/Group4260.png" />
+        <img
+          @click="scrollToSection('navbar')"
+          src="../../src/assets/Group4260.png"
+        />
         <!-- Mobile menu button -->
         <div @click="showMenu = !showMenu" class="flex md:hidden lg:hidden">
           <button
@@ -110,14 +111,14 @@
         </li>
       </ul>
     </nav>
-
     <div class="w-full h-screen">
       <div class="flex flex-col justify-center items-center w-full h-full">
         <div class="max-w-[1500px] w-full grid sm:grid-cols-1 gap-8 p-4">
           <div
             class="flex flex-col justify-center items-center text-center w-full h-full"
           >
-            <h1 class="text-6xl font-semibold mt-40">Influencer Discovery</h1>
+            <h1 class="text-6xl font-semibold mt-16">Influencer Discovery</h1>
+            <!-- <h1 class="text-6xl font-semibold mt-40">Influencer Discovery</h1> -->
             <p class="font-light text-2xl mt-5">
               The fastest and most efficient method to find social media
             </p>
@@ -155,21 +156,7 @@
       </div>
     </div>
   </div>
-
-  <!-- <div class="h-[50px] lg:h-[300px] md:h-[50px] sm:h-[30px]"></div> -->
 </template>
-<!-- <script>
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "Navbar",
-  data() {
-    return {
-      showMenu: false,
-    };
-  },
-});
-</script> -->
 <script>
 import { defineComponent } from "vue";
 

@@ -3,7 +3,7 @@
   <!-- <div class="relative bg-slate-500"> -->
   <div
     id="contact"
-    class="w-full h-[600px] bg-Pricing justify-center items-center relative"
+    class="w-full min-h-[600px] bg-Pricing flex justify-center items-center relative z-0"
   >
     <div
       data-aos="zoom-in"
