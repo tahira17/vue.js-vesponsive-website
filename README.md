@@ -1,24 +1,20 @@
 # Vue.js Responsive Website
 
-## Project setup
-```
-yarn install
-```
+A modern, responsive frontend website inspired by Figma-to-website platforms. This project focuses on translating design concepts into clean, reusable, and responsive user interfaces using modern frontend technologies.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 🚀 Features
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- Fully responsive design for desktop, tablet, and mobile.
+- Modern and clean user interface.
+- Reusable Vue.js components.
+- Tailwind CSS for styling and responsive layouts.
+- Smooth transitions and interactive UI elements.
+- Organized and maintainable code structure.
 
-### Lints and fixes files
-```
-yarn lint
-```
+## 🛠️ Technologies Used
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **Vue.js** – Frontend framework
+- **Tailwind CSS** – Styling and responsive design
+- **HTML5** – Website structure
+- **CSS3** – Custom styling
+
